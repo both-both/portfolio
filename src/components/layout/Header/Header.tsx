@@ -3,8 +3,8 @@ import { navLinks } from "../../../data/navLinks";
 
 export const Header = () => {
   return (
-    <header className="flex items-center justify-between  px-20 py-5">
-      <a href="/" className="italic">
+    <header className="flex items-center justify-between  px-29 py-5">
+      <a className="uppercase text-sm" href="/">
         Clara Both
       </a>
       <NavBar links={navLinks} />

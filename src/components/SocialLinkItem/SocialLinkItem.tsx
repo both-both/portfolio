@@ -7,6 +7,7 @@ export const SocialLinkItem = ({
 }: SocialLinkItemProps) => {
   return (
     <a
+      className="duration-200 hover:underline hover:underline-offset-4 text-sm"
       href={href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
