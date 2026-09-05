@@ -18,4 +18,14 @@ body {
 
 a {
     ${resetLink}
-}`;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+     transition: text-underline-offset 200ms;
+  font-weight: 500;
+
+    &:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+}
+`;

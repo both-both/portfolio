@@ -23,6 +23,5 @@ export const FooterActions = styled.div`
 export const SocialLinksList = styled.div`
   display: flex;
   justify-content: flex-end;
-  text-transform: uppercase;
-  gap: 1.25rem;
+  gap: 2rem;
 `;

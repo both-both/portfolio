@@ -1,5 +1,4 @@
 import type { SocialLinkItemProps } from "./SocialLinkItem.types";
-import { SocialLinkItemStyled } from "./SocialLinkItem.Styled";
 
 export const SocialLinkItem = ({
   label,
@@ -7,12 +6,12 @@ export const SocialLinkItem = ({
   external,
 }: SocialLinkItemProps) => {
   return (
-    <SocialLinkItemStyled
+    <a
       href={href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
     >
       {label}
-    </SocialLinkItemStyled>
+    </a>
   );
 };
