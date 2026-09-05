@@ -20,3 +20,8 @@ export const resetButton = `
   cursor: pointer;
 	${reset};	
 `;
+
+export const resetContainer = `
+  width: 90%;
+  margin: auto;
+`;

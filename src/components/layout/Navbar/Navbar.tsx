@@ -1,4 +1,4 @@
-import type { NavBarProps } from "./Navbar.types";
+import type { NavBarProps } from "./NavBar.types";
 
 export const NavBar = ({ links }: NavBarProps) => {
   return (

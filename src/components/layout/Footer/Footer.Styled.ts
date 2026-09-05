@@ -1,8 +1,8 @@
 import styled from "styled-components";
+import { resetContainer } from "../../../style/Mixins";
 
 export const FooterStyled = styled.div`
-  width: 90%;
-  margin: auto;
+  ${resetContainer}
 `;
 
 export const FooterHeading = styled.p`
