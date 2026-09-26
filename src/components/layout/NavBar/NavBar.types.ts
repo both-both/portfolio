@@ -1,5 +1,7 @@
+import type { Translations } from "../../../i18n/da";
+
 export type NavLink = {
-  label: string;
+  key: keyof Translations["nav"];
   href: string;
 };
 

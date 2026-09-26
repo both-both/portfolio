@@ -1,3 +1,13 @@
+import { ContentWrapper } from "../../components/ContentWrapper/ContentWrapper";
+import { HeroSection } from "../../components/modules/HeroSection";
+
 export const HomePage = () => {
-  return null;
+  return (
+    <ContentWrapper
+      title="Clara Both — Web Developer"
+      description="Portfolio for Clara Both — a graphic designer turning web developer, showcasing projects from my journey into coding."
+    >
+      <HeroSection text="Web developer in the making..." />
+    </ContentWrapper>
+  );
 };

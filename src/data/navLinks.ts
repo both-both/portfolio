@@ -1,7 +1,7 @@
-import type { NavLink } from "../components/layout/Navbar/NavBar.types";
+import type { NavLink } from "../components/layout/NavBar/NavBar.types";
 
 export const navLinks: NavLink[] = [
-  { label: "Info", href: "#info" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
+  { key: "Info", href: "#info" },
+  { key: "Projects", href: "#projects" },
+  { key: "Contact", href: "#contact" },
 ];

@@ -6,13 +6,16 @@ import { BrowserRouter } from "react-router";
 import { theme } from "./style/Theme.ts";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./style/Global.ts";
+import { LanguageProvider } from "./context/LanguageContext.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <App />
+        <LanguageProvider>
+          <GlobalStyle />
+          <App />
+        </LanguageProvider>
       </ThemeProvider>
     </BrowserRouter>
   </StrictMode>,

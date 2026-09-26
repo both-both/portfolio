@@ -6,7 +6,7 @@ import {
   FooterHeading,
   FooterActions,
   SocialLinksList,
-} from "./Footer.Styled";
+} from "./Footer.styled";
 
 export const Footer = () => {
   return (

@@ -1,6 +1,6 @@
-import { NavBar } from "../Navbar/NavBar";
+import { NavBar } from "../NavBar/NavBar";
 import { navLinks } from "../../../data/navLinks";
-import { HeaderStyled } from "./Header.Styled";
+import { HeaderStyled } from "./Header.styled";
 
 export const Header = () => {
   return (
