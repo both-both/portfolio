@@ -7,17 +7,20 @@ import {
   FooterActions,
   SocialLinksList,
 } from "./Footer.styled";
+import { useLanguage } from "../../../hooks/useLanguage";
 
 export const Footer = () => {
+  const { t } = useLanguage();
+
   return (
-    <FooterStyled>
+    <FooterStyled id="contact">
       <FooterHeading>get in touch</FooterHeading>
       <FooterActions>
         <Button
           type="button"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          Back to top
+          {t.footer.backToTop}
         </Button>
         <SocialLinksList>
           {socialLinks.map((link) => (

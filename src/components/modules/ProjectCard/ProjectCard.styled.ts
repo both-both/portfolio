@@ -4,7 +4,7 @@ export const ProjectCardStyled = styled.a`
   position: relative;
   display: block;
   aspect-ratio: 4 / 3;
-  background-color: #d9d9d9;
+  background-color: ${({ theme }) => theme.color.placeholder};
   text-transform: none;
 
   img {

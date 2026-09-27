@@ -9,5 +9,5 @@ export const en: Translations = {
     next: "Next projects",
   },
 
-  footer: { contact: "Contact me" },
+  footer: { backToTop: "Back to top" },
 };

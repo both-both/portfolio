@@ -6,7 +6,6 @@ export const da = {
     prev: "Forrige projekter",
     next: "Næste projekter",
   },
-
-  footer: { contact: "Kontakt mig" },
+  footer: { backToTop: "Til toppen" },
 };
 export type Translations = typeof da;

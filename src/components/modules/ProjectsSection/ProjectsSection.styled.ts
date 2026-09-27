@@ -6,7 +6,7 @@ export const ProjectsSectionStyled = styled.section`
   padding-block: 4rem;
 
   h2 {
-    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-size: clamp(2rem, 3vw, 3rem);
     font-weight: 700;
     margin-bottom: 2.5rem;
   }
@@ -23,7 +23,7 @@ export const ProjectsSectionStyled = styled.section`
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
 
-    @media (width < 768px) {
+    @media (width < ${({ theme }) => theme.breakpoint.mobile}) {
       width: 100%;
       grid-auto-columns: 100%;
     }

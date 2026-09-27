@@ -12,9 +12,15 @@ body {
     font-family: ${(props) => props.theme.font.primary};
    
     color: ${({ theme }) => theme.color.primary};
-   
-
 }
+
+h2 {
+  font-size: ${({ theme }) => theme.fontSize.h2};
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
+  margin-bottom: ${({ theme }) => theme.space.xl};
+}
+
+
 
 a {
     ${resetLink}
