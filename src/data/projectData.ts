@@ -3,25 +3,41 @@ import type { Project } from "../components/modules/ProjectCard/ProjectCard.type
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Projekt 1'ss navn",
+    slug: "project-1",
+    title: "Project 1",
+    intro: { da: "Kort intro", en: "Short intro" },
+    description: { da: "Længere beskrivelse", en: "Longer description" },
     url: "https://dit-projekt.netlify.app",
+    github: "https://github.com/both-both/dit-projekt",
   },
 
   {
     id: 2,
-    title: "Projekt 2's navn",
+    slug: "project-2",
+    title: "Project 2",
+    intro: { da: "Kort intro", en: "Short intro" },
+    description: { da: "Længere beskrivelse", en: "Longer description" },
     url: "https://dit-projekt.netlify.app",
+    github: "https://github.com/both-both/dit-projekt",
   },
 
   {
     id: 3,
-    title: "Projekt 3's navn",
+    slug: "project-3",
+    title: "Project 3",
+    intro: { da: "Kort intro", en: "Short intro" },
+    description: { da: "Længere beskrivelse", en: "Longer description" },
     url: "https://dit-projekt.netlify.app",
+    github: "https://github.com/both-both/dit-projekt",
   },
 
   {
     id: 4,
-    title: "Projekt 4's navn_",
+    slug: "project-4",
+    title: "Project 4",
+    intro: { da: "Kort intro", en: "Short intro" },
+    description: { da: "Længere beskrivelse", en: "Longer description" },
     url: "https://dit-projekt.netlify.app",
+    github: "https://github.com/both-both/dit-projekt",
   },
 ];

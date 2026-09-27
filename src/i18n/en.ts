@@ -3,12 +3,14 @@ import type { Translations } from "./da";
 
 export const en: Translations = {
   nav: { info: "Info", projects: "Projects", contact: "Contact" },
+
+  //ProjectSection
   projects: {
     heading: "Projects",
     prev: "Previous projects",
     next: "Next projects",
   },
-  // skal ændres
+  // AboutSection
   about: {
     intro: "I used to make things look good. Now I make them work.",
 
@@ -17,4 +19,11 @@ export const en: Translations = {
   },
 
   footer: { backToTop: "Back to top" },
+
+  //projectPage
+  projectPage: {
+    github: "GitHub",
+    site: "Go to project site",
+    screenshot: "Screenshot of",
+  },
 };

@@ -1,12 +1,14 @@
 // da.ts
 export const da = {
   nav: { info: "Info", projects: "Projekter", contact: "Kontakt" },
+
+  //ProjectSection
   projects: {
     heading: "Projekter",
     prev: "Forrige projekter",
     next: "Næste projekter",
   },
-
+  //AboutSection
   about: {
     intro: "Før fik jeg ting til at se godt ud. Nu får jeg dem til at virke.",
 
@@ -15,5 +17,13 @@ export const da = {
   },
 
   footer: { backToTop: "Til toppen" },
+
+  //projectPage
+  projectPage: {
+    github: "GitHub",
+    site: "Gå til projektets side",
+    screenshot: "Skærmbillede af",
+  },
 };
+
 export type Translations = typeof da;

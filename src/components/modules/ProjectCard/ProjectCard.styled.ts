@@ -1,6 +1,7 @@
+import { Link } from "react-router";
 import styled from "styled-components";
 
-export const ProjectCardStyled = styled.a`
+export const ProjectCardStyled = styled(Link)`
   position: relative;
   display: block;
   aspect-ratio: 4 / 3;

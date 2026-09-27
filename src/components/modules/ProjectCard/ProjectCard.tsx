@@ -1,9 +1,8 @@
 import { ProjectCardStyled } from "./ProjectCard.styled";
 import type { Project } from "./ProjectCard.types";
-
-export const ProjectCard = ({ title, url, image }: Project) => {
+export const ProjectCard = ({ title, slug, image }: Project) => {
   return (
-    <ProjectCardStyled href={url} target="_blank" rel="noopener noreferrer">
+    <ProjectCardStyled to={`/projects/${slug}`}>
       {image && <img src={image} alt="" />}
       <h3>{title}</h3>
     </ProjectCardStyled>
