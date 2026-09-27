@@ -1,4 +1,5 @@
 import { ContentWrapper } from "../../components/ContentWrapper/ContentWrapper";
+import { AboutSection } from "../../components/modules/AboutSection/AboutSection";
 import { HeroSection } from "../../components/modules/HeroSection/HeroSection";
 import { ProjectsSection } from "../../components/modules/ProjectsSection/ProjectsSection";
 
@@ -10,6 +11,7 @@ export const HomePage = () => {
     >
       <HeroSection text="Web developer in the making..." />
       <ProjectsSection />
+      <AboutSection />
     </ContentWrapper>
   );
 };

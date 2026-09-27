@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import { resetContainer } from "../../../style/Mixins";
 
-export const FooterStyled = styled.div`
+export const FooterStyled = styled.footer`
   ${resetContainer}
+  padding-top: ${({ theme }) => theme.space.section};
+  padding-bottom: ${({ theme }) => theme.space.l};
 `;
 
 export const FooterHeading = styled.p`

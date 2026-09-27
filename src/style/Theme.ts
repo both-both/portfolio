@@ -14,6 +14,8 @@ export const theme = {
     m: "1rem",
     l: "1.75rem",
     h2: "clamp(2rem, 3vw, 3rem)",
+    hero: "clamp(3rem, 11vw, 10rem)",
+
     display: "16vw",
   },
 
@@ -30,6 +32,7 @@ export const theme = {
     l: "2rem",
     xl: "2.5rem",
     xxl: "4rem",
+    section: "clamp(4rem, 10vw, 8rem)",
   },
 
   breakpoint: {

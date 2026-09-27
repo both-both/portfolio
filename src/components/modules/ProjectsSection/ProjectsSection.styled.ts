@@ -3,7 +3,7 @@ import { resetContainer, resetList } from "../../../style/Mixins";
 
 export const ProjectsSectionStyled = styled.section`
   ${resetContainer}
-  padding-block: 4rem;
+  padding-block: ${({ theme }) => theme.space.section};
 
   h2 {
     font-size: clamp(2rem, 3vw, 3rem);
