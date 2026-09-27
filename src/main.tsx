@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router";
 import { theme } from "./style/Theme.ts";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./style/Global.ts";
-import { LanguageProvider } from "./context/LanguageContext.tsx";
+import { LanguageProvider } from "./context/LanguageProvider.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

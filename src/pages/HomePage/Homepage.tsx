@@ -1,5 +1,6 @@
 import { ContentWrapper } from "../../components/ContentWrapper/ContentWrapper";
-import { HeroSection } from "../../components/modules/HeroSection";
+import { HeroSection } from "../../components/modules/HeroSection/HeroSection";
+import { ProjectsSection } from "../../components/modules/ProjectsSection/ProjectsSection";
 
 export const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ export const HomePage = () => {
       description="Portfolio for Clara Both — a graphic designer turning web developer, showcasing projects from my journey into coding."
     >
       <HeroSection text="Web developer in the making..." />
+      <ProjectsSection />
     </ContentWrapper>
   );
 };

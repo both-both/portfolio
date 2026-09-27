@@ -2,4 +2,5 @@ export type ButtonProps = {
   type: "button" | "submit" | "reset";
   children: React.ReactNode;
   onClick: () => void;
+  ariaLabel?: string;
 };

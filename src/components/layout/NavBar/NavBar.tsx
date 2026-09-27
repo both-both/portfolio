@@ -1,4 +1,5 @@
-import { useLanguage } from "../../../context/LanguageContext";
+import { useLanguage } from "../../../hooks/useLanguage";
+import { Button } from "../../Button/Button";
 import { NavBarStyled } from "./NavBar.styled";
 import type { NavBarProps } from "./NavBar.types";
 
@@ -12,9 +13,13 @@ export const NavBar = ({ links }: NavBarProps) => {
           {t.nav[link.key]}
         </a>
       ))}
-      <button onClick={() => setLang(lang === "da" ? "en" : "da")}>
+      <Button
+        type="button"
+        onClick={() => setLang(lang === "da" ? "en" : "da")}
+        ariaLabel={lang === "da" ? "Switch to English" : "Skift til dansk"}
+      >
         {lang === "da" ? "EN" : "DA"}
-      </button>
+      </Button>
     </NavBarStyled>
   );
 };
